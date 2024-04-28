@@ -1,14 +1,14 @@
 const Projects = () => {
     return ( 
-        <div classname="projects-section">
-            <div classname="projects">
+        <div className="projects-section">
+            <div className="projects">
 
             <h1 id="projects-title">Projects</h1>
     
-            <div classname="card-section">
-                <div classname="card">
-                    <div classname="card-text">
-                        <h1 classname="card-title">Fit Buddy</h1>
+            <div className="project-card-section">
+                <div className="project-card">
+                    <div className="project-card-text">
+                        <h1 className="project-card-title">Fit Buddy</h1>
                     
                         <p>
                             The fitness social media app provides a easy and immersive user experience.
@@ -17,20 +17,20 @@ const Projects = () => {
                         </p>
 
                         <a href="https://github.com/robinmonsere/FitBuddy_App" class="github">
-                            <button classname="github-button">Github</button>
+                            <button className="github-button">Github</button>
                         </a>
                     </div>
                     
-                    <div classname="images">
+                    <div className="project-images">
                         <img src="./src/images/projects/profile.webp" alt=""/>
                         <img src="./src/images/projects/timeline.webp" alt=""/>
                         <img src="./src/images/projects/matchmaking.webp" alt=""/>    
                     </div>
                 </div>
     
-                <div classname="card">
-                    <div classname="card-text">
-                        <h1 classname="card-title">Job Harvester</h1>
+                <div className="project-card">
+                    <div className="project-card-text">
+                        <h1 className="project-card-title">Job Harvester</h1>
                     
                         <p>
                             Job Harvester is a webpage/extension that helps the user organize their job search process by giving them access to
@@ -38,11 +38,11 @@ const Projects = () => {
                         </p>
 
                         <a href="https://github.com/TheEMG/Job-Harvester" class="github">
-                            <button classname="github-button">Github</button>
+                            <button className="github-button">Github</button>
                         </a>
                     </div>
                     
-                    <div classname="single-image">
+                    <div className="project-single-image">
                         <img src="./src/images/projects/jobharvester.png" alt=""/>
                     </div>
                 </div>

@@ -1,11 +1,11 @@
 const Experience = () => {
     return ( 
-        <div classname="experience">
+        <div className="experience">
 
             <h1 id="experience-title">Experience</h1>
     
-            <div classname="card-section">
-                <div classname="card">
+            <div className="experience-card-section">
+                <div className="experience-card">
                     <h2>Google IT Automation with Python</h2>
                     
                     <h3> (July 22, 2023)</h3>
@@ -17,7 +17,7 @@ const Experience = () => {
                     </p>
                 </div>
                 
-                <div classname="card">
+                <div className="experience-card">
                     <h2>Discount Tire Co.</h2>
 
                     <h3> (June 2018 - Present)</h3>
