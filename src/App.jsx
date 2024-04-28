@@ -15,11 +15,11 @@ function App() {
         <Navbar />
         <div className="content">
           <Routes>
-            <Route exact path="/" element={ <About /> } />
-            <Route path="/skills" element={ <Skills /> } />
-            <Route path="/projects" element={ <Projects /> } />
-            <Route path="/experience" element={ <Experience /> } />
-            <Route path="/contact" element={ <Contact />} />
+            <Route exact path="/React-Portfolio" element={ <About /> } />
+            <Route path="/React-Portfolio/skills" element={ <Skills /> } />
+            <Route path="/React-Portfolio/projects" element={ <Projects /> } />
+            <Route path="/React-Portfolio/experience" element={ <Experience /> } />
+            <Route path="/React-Portfolio/contact" element={ <Contact />} />
             <Route path="*" element={ <NotFound /> } />
           </Routes>
         </div>

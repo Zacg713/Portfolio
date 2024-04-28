@@ -21,7 +21,7 @@ const About = () => {
             </div>
 
             <div className="about-me-image">
-                <img src="./src/images/aboutMe/profilepicture.webp" alt="profilepicture-img" />
+                <img src="React-Portfolio/src/images/aboutMe/profilepicture.webp" alt="profilepicture-img" />
             </div>
         </div>     
     );
