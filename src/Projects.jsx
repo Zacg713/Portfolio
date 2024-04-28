@@ -22,9 +22,9 @@ const Projects = () => {
                     </div>
                     
                     <div classname="images">
-                        <img src="../images/projects/profile.webp" alt=""/>
-                        <img src="../images/projects/timeline.webp" alt=""/>
-                        <img src="../images/projects/matchmaking.webp" alt=""/>    
+                        <img src="./src/images/projects/profile.webp" alt=""/>
+                        <img src="./src/images/projects/timeline.webp" alt=""/>
+                        <img src="./src/images/projects/matchmaking.webp" alt=""/>    
                     </div>
                 </div>
     
@@ -43,7 +43,7 @@ const Projects = () => {
                     </div>
                     
                     <div classname="single-image">
-                        <img src="../images/projects/jobharvester.png" alt=""/>
+                        <img src="./src/images/projects/jobharvester.png" alt=""/>
                     </div>
                 </div>
             </div>
