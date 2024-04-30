@@ -9,12 +9,12 @@ const Contact = () => {
                     <div className="contact-card">
                         <p>
                             <a href="https://www.linkedin.com/in/zachary-graham-944234286/">
-                                <img className="contactlogos" id="linkedin" src="./src/images/contact/linkedin.webp" alt="LinkedIn"/>
+                                <img className="contactlogos" id="linkedin" src="./React-Portfolio/images/contact/linkedin.webp" alt="LinkedIn"/>
                             </a>
                         </p>
                         <p>
                             <a href="mailto:zacg713@gmail.com">
-                                <img className="contactlogos" src="./src/images/contact/gmail.webp" alt="Mail"/>
+                                <img className="contactlogos" src="./React-Portfolio/images/contact/gmail.webp" alt="Mail"/>
                             </a>
                         </p>
                     </div>
