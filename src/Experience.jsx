@@ -23,7 +23,7 @@ const Experience = () => {
                     <h3> (April 2024)</h3>
                     
                     <p>
-                        This certificate was awarded to the first place team in the capstone project competetion 
+                        I was awarded this Certificate of Achievement for placing first in the Capstone Project Competetion 
                         at the University of Texas as Tyler.
                     </p>
                 </div>
