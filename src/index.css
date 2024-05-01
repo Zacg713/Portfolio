@@ -216,10 +216,15 @@
   text-align: center;
   padding-bottom: 30px;
 }
-.experience #experience-title {
+.experience #certificate-title {
   padding: 20px 0px 70px 0px;
   font-size: 50px;
 }
+
+.experience #experience-title {
+  font-size: 50px;
+}
+
 .experience-card-section {
   display: grid;
   grid-template-columns: repeat(1,150px);  /* 3 columns */

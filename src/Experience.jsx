@@ -2,7 +2,7 @@ const Experience = () => {
     return ( 
         <div className="experience">
 
-            <h1 id="experience-title">Experience</h1>
+            <h1 id="certificate-title">Certificates</h1>
     
             <div className="experience-card-section">
                 <div className="experience-card">
@@ -16,7 +16,20 @@ const Experience = () => {
                         and analyzing real-world IT problems and implement the appropriate strategies to solve those problems.
                     </p>
                 </div>
+
+                <div className="experience-card">
+                    <h2>Certificate of Achievement</h2>
+                    
+                    <h3> (April 2024)</h3>
+                    
+                    <p>
+                        This certificate was awarded to the first place team in the capstone project competetion 
+                        at the University of Texas as Tyler.
+                    </p>
+                </div>
                 
+                <h1 id="experience-title">Experience</h1>
+
                 <div className="experience-card">
                     <h2>Discount Tire Co.</h2>
 
