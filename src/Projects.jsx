@@ -1,3 +1,8 @@
+import jobharvester from "/images/projects/jobharvester.png";
+import matchmaking from "/images/projects/matchmaking.webp";
+import profile from "/images/projects/profile.webp";
+import timeline from "/images/projects/timeline.webp";
+
 const Projects = () => {
     return ( 
         <div className="projects-section">
@@ -16,15 +21,15 @@ const Projects = () => {
                                 share their workout triumphs, and compete with friends to unlock the most achievements.
                             </p>
 
-                            <a href="https://github.com/robinmonsere/FitBuddy_App" class="github">
+                            <a href="https://github.com/robinmonsere/FitBuddy_App" className="github">
                                 <button className="github-button">Github</button>
                             </a>
                         </div>
                         
                         <div className="project-images">
-                            <img src="./React-Portfolio/images/projects/profile.webp" alt=""/>
-                            <img src="./React-Portfolio/images/projects/timeline.webp" alt=""/>
-                            <img src="./React-Portfolio/images/projects/matchmaking.webp" alt=""/>    
+                            <img src={ profile } alt=""/>
+                            <img src={ timeline } alt=""/>
+                            <img src={ matchmaking } alt=""/>    
                         </div>
                     </div>
         
@@ -37,13 +42,13 @@ const Projects = () => {
                                 a dashboard that will automatically update their status with the companies they have applied to by classifying their job emails using Naive Bayes Classifier.
                             </p>
 
-                            <a href="https://github.com/TheEMG/Job-Harvester" class="github">
+                            <a href="https://github.com/TheEMG/Job-Harvester" className="github">
                                 <button className="github-button">Github</button>
                             </a>
                         </div>
                         
                         <div className="project-single-image">
-                            <img src="./React-Portfolio/images/projects/jobharvester.png" alt=""/>
+                            <img src={ jobharvester } alt=""/>
                         </div>
                     </div>
                 </div>

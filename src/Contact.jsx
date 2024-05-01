@@ -1,3 +1,6 @@
+import linkedin from "/images/contact/linkedin.webp";
+import gmail from "/images/contact/gmail.webp";
+
 const Contact = () => {
     return ( 
         <div className="contact-section">
@@ -9,12 +12,12 @@ const Contact = () => {
                     <div className="contact-card">
                         <p>
                             <a href="https://www.linkedin.com/in/zachary-graham-944234286/">
-                                <img className="contactlogos" id="linkedin" src="./React-Portfolio/images/contact/linkedin.webp" alt="LinkedIn"/>
+                                <img className="contactlogos" id="linkedin" src={ linkedin } alt="LinkedIn"/>
                             </a>
                         </p>
                         <p>
                             <a href="mailto:zacg713@gmail.com">
-                                <img className="contactlogos" src="./React-Portfolio/images/contact/gmail.webp" alt="Mail"/>
+                                <img className="contactlogos" src={ gmail } alt="Mail"/>
                             </a>
                         </p>
                     </div>

@@ -1,3 +1,12 @@
+import c from "/images/skills/c++.webp";
+import dart from "/images/skills/dart.webp";
+import flutter from "/images/skills/flutter.webp";
+import html from "/images/skills/html.webp";
+import java from "/images/skills/java.webp";
+import javascript from "/images/skills/javascript.webp";
+import python from "/images/skills/python.webp";
+import react from "/images/skills/react.png";
+
 const Skills = () => {
     return ( 
         <div className="skills-section">
@@ -7,49 +16,49 @@ const Skills = () => {
                 <div className="skills-card-section">
                     <div className="skills-card">
                         <h2 className="skills-card-title">C++</h2>
-                        <img src="./React-Portfolio/images/skills/c++.webp" alt=""/>
+                        <img src={ c } alt=""/>
                         <p>3 years of experience</p>
                     </div>
     
                     <div className="skills-card">
                         <h2 className="skills-card-title">Java</h2>
-                        <img src="./React-Portfolio/images/skills/java.webp" alt=""/>
+                        <img src={ java } alt=""/>
                         <p>2 years of experience</p>
                     </div>
     
                     <div className="skills-card">
                         <h2 className="skills-card-title">Python</h2>
-                        <img src="./React-Portfolio/images/skills/python.webp" alt=""/>
+                        <img src={ python } alt=""/>
                         <p>2 years of experience</p>
                     </div>
     
                     <div className="skills-card">
                         <h2 className="skills-card-title">HTML</h2>
-                        <img src="./React-Portfolio/images/skills/html.webp" alt=""/>
+                        <img src={ html } alt=""/>
                         <p>1 year of experience</p>
                     </div>
     
                     <div className="skills-card">
                         <h2 className="skills-card-title">JavaScript</h2>
-                        <img src="./React-Portfolio/images/skills/javascript.webp" alt=""/>
+                        <img src={ javascript } alt=""/>
                         <p>1 year of experience</p>
                     </div>
 
                     <div className="skills-card">
                         <h2 className="skills-card-title">React</h2>
-                        <img src="./React-Portfolio/images/skills/Designer.png" alt=""/>
+                        <img src={ react } alt=""/>
                         <p>1 year of experience</p>
                     </div>
     
                     <div className="skills-card">
                         <h2 className="skills-card-title">Dart</h2>
-                        <img src="./React-Portfolio/images/skills/dart.webp" alt=""/>
+                        <img src={ dart } alt=""/>
                         <p>1 year of experience</p>
                     </div>
     
                     <div className="skills-card">
                         <h2 className="skills-card-title">Flutter</h2>
-                        <img src="./React-Portfolio/images/skills/flutter.webp" alt=""/>
+                        <img src={ flutter } alt=""/>
                         <p>1 year of experience</p>
                     </div>
                 </div>

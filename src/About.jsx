@@ -1,3 +1,5 @@
+import pp from "/images/aboutMe/profilepicture.webp";
+
 const About = () => {
     return (
         <div className="about-me">
@@ -21,7 +23,7 @@ const About = () => {
             </div>
 
             <div className="about-me-image">
-                <img src="./React-Portfolio/images/aboutMe/profilepicture.webp" alt="profilepicture-img" />
+                <img src={ pp } alt="profilepicture-img" />
             </div>
         </div>     
     );
