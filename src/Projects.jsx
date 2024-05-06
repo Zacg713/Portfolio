@@ -27,9 +27,9 @@ const Projects = () => {
                                     <button className="github-button">Github</button>
                                 </a>
 
-                                <Link className="project-link" to="/React-Portfolio/projects/detailed-view">
+                                {/* <Link className="project-link" to="/React-Portfolio/projects/detailed-view">
                                     <button className="detail-button">Detailed View</button>
-                                </Link>
+                                </Link> */}
                             </div>   
                         </div>
                         
@@ -54,9 +54,9 @@ const Projects = () => {
                                     <button className="github-button">Github</button>
                                 </a>
 
-                                <Link className="project-link" to="/React-Portfolio/projects/detailed-view">
+                                {/* <Link className="project-link" to="/React-Portfolio/projects/detailed-view">
                                     <button className="detail-button">Detailed View</button>
-                                </Link>
+                                </Link> */}
                             </div>
                         </div>
                         
