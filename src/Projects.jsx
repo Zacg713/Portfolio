@@ -2,6 +2,7 @@ import jobharvester from "/images/projects/jobharvester.png";
 import matchmaking from "/images/projects/matchmaking.webp";
 import profile from "/images/projects/profile.webp";
 import timeline from "/images/projects/timeline.webp";
+import { Link } from "react-router-dom";
 
 const Projects = () => {
     return ( 
@@ -21,9 +22,15 @@ const Projects = () => {
                                 share their workout triumphs, and compete with friends to unlock the most achievements.
                             </p>
 
-                            <a href="https://github.com/robinmonsere/FitBuddy_App" className="github">
-                                <button className="github-button">Github</button>
-                            </a>
+                            <div className="button-row">
+                                <a href="https://github.com/robinmonsere/FitBuddy_App" className="github">
+                                    <button className="github-button">Github</button>
+                                </a>
+
+                                <Link className="project-link" to="/React-Portfolio/projects/detailed-view">
+                                    <button className="detail-button">Detailed View</button>
+                                </Link>
+                            </div>   
                         </div>
                         
                         <div className="project-images">
@@ -42,9 +49,15 @@ const Projects = () => {
                                 a dashboard that will automatically update their status with the companies they have applied to by classifying their job emails using Naive Bayes Classifier.
                             </p>
 
-                            <a href="https://github.com/TheEMG/Job-Harvester" className="github">
-                                <button className="github-button">Github</button>
-                            </a>
+                            <div className="button-row">
+                                <a href="https://github.com/TheEMG/Job-Harvester" className="github">
+                                    <button className="github-button">Github</button>
+                                </a>
+
+                                <Link className="project-link" to="/React-Portfolio/projects/detailed-view">
+                                    <button className="detail-button">Detailed View</button>
+                                </Link>
+                            </div>
                         </div>
                         
                         <div className="project-single-image">

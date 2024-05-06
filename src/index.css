@@ -195,6 +195,9 @@
   width: 45vw;
   padding: 15px 15px 15px 15px;
 }
+.button-row {
+  display: block;
+}
 .github-button {
   border-style: double;
   border-radius: 15px;
@@ -203,6 +206,17 @@
   color: white;
   font-size: var(--nav-font-size);
   width: 5vw;
+  height: 5vh;
+}
+.detail-button {
+  margin-left: 3vw;
+  border-style: double;
+  border-radius: 15px;
+  border-color: white;
+  background: #00459f;
+  color: white;
+  font-size: var(--nav-font-size);
+  width: 8vw;
   height: 5vh;
 }
 
@@ -220,11 +234,9 @@
   padding: 20px 0px 70px 0px;
   font-size: 50px;
 }
-
 .experience #experience-title {
   font-size: 50px;
 }
-
 .experience-card-section {
   display: grid;
   grid-template-columns: repeat(1,150px);  /* 3 columns */
